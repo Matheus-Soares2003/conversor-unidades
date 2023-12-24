@@ -1,0 +1,18 @@
+:root {
+    --azul-escuro: #001f3f;
+    --azul-claro: #00BCD4;
+    --verde: #4CAF50;
+    --laranja: #FFA500;
+    --cinza-claro: #E0E0E0;
+}
+
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--cinza-claro);
+}
+
+
