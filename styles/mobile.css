@@ -14,10 +14,16 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100vw;
-    height: 100vh;
+html {
+    scroll-behavior: smooth;
 }
+
+body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 
 .cabecalho-menu {
     width: 100%;
@@ -78,14 +84,18 @@ ul  li.item-menu a{
 }
 
 header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     background-color: var(--verde);
+    height: 15vh;
+    width: 100%;
 }
 
 .titulo-menu {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%;
     width: 100%;
     text-align: center;
     color: var(--cinza-claro);
@@ -95,4 +105,13 @@ header {
     visibility: hidden;
 }
 
+main {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    margin-left: 20px;
+}
 

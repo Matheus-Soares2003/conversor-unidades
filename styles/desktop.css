@@ -1,8 +1,33 @@
+:root {
+    --azul-escuro: #001f3f;
+    --azul-claro: #00BCD4;
+    --verde: #4CAF50;
+    --laranja: #FFA500;
+    --cinza-claro: #E0E0E0;
+}
+
 .menu {
+    margin-top: 20px;
+    margin-left: 10px;
     visibility: visible;
     width: 100%;
     display: flex;
-    gap: 20px;
+    gap: 10px;
+}
+
+.menu > a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: .3s;
+    border-radius: 6px;
+}
+
+.menu > a:hover{
+    font-weight: bolder;
+    background-color: var(--azul-escuro);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.425);
 }
 
 .menu-lateral {
