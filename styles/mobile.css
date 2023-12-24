@@ -12,7 +12,87 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: var(--cinza-claro);
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.cabecalho-menu {
+    width: 100%;
+}
+
+nav.menu-lateral {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 0px;
+    height: 100vh;
+    background-color: var(--azul-escuro);
+    padding: 20px 0;
+    box-shadow: 1px 1px #001931;
+    overflow: hidden;
+    transition: .4s;
+}
+
+nav.menu-lateral.expandir {
+    width: 200px;
+}
+
+.btn-expandir {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.btn-expandir > i {
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.btn-retrair {
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.btn-retrair > i {
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+ul.lista-menu {
+    height: 100vh;
+    list-style-type: none;
+}
+
+ul  li.item-menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 4%;
+    display: flex;
+}
+
+header {
+    background-color: var(--verde);
+}
+
+.titulo-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color: var(--cinza-claro);
+}
+
+.menu {
+    visibility: hidden;
 }
 
 

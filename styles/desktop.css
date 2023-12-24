@@ -1,0 +1,14 @@
+.menu {
+    visibility: visible;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+
+.menu-lateral {
+    visibility: hidden;
+}
+
+.btn-expandir, .btn-retrair{
+    visibility: hidden;
+}

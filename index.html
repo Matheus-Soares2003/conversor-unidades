@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/mobile.css" media="all">
-    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 992px)">
+    <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <title>Conversor de Unidades</title>
 </head>
 <body>
-    <header>
-        <div><h1>Conversor de Unidades</h1></div>
-        <nav>
-            <a href="massa.html">Massas</a>
-            <a href="distancia.html">Distâncias/Comprimento</a>
-            <a href="tempo.html">Tempo</a>
-            <a href="velocidade.html">Velocidade</a>
-            <a href="volume.html">Volume</a>
-            <a href="area.html">Área</a>
-            <a href="temperatura.html">Temperatura</a>
+    <header class="cabecalho-menu">
+        <div class="btn-expandir">
+            <i class="bi bi-list" id="btn-exp"></i>
+        </div>
+        <nav class="menu-lateral">
+            <div class="btn-retrair">
+                <i class="bi bi-list" id="btn-retrair"></i>
+            </div>
+            <ul class="lista-menu">
+                <li class="item-menu"><a href="htmls/massa.html">Massa</a></li>
+                <li class="item-menu"><a href="htmls/distancia.html">Distância</a></li>
+                <li class="item-menu"><a href="htmls/tempo.html">Tempo</a></li>
+                <li class="item-menu"><a href="htmls/velocidade.html">Velocidade</a></li>
+                <li class="item-menu"><a href="htmls/volume.html">Volume</a></li>
+                <li class="item-menu"><a href="htmls/area.html">Área</a></li>
+                <li class="item-menu"><a href="htmls/temperatura.html">Temperatura</a></li>
+            </ul>
+        </nav>
+        <div class="titulo-menu"><h1>Conversor de Unidades</h1></div>
+        <nav class="menu">
+            <a href="htmls/massa.html">Massas</a>
+            <a href="htmls/distancia.html">Distâncias/Comprimento</a>
+            <a href="htmls/tempo.html">Tempo</a>
+            <a href="htmls/velocidade.html">Velocidade</a>
+            <a href="htmls/volume.html">Volume</a>
+            <a href="htmls/area.html">Área</a>
+            <a href="htmls/temperatura.html">Temperatura</a>
         </nav>
     </header>
     <main>
@@ -42,5 +60,6 @@
     <footer>
         <p>Site criado por <a href="https://www.linkedin.com/in/matheusstcabral" target='_blank'>Matheus Soares</a></p>
     </footer>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
