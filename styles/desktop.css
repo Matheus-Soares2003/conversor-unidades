@@ -6,13 +6,19 @@
     --cinza-claro: #E0E0E0;
 }
 
+body {
+    background-color: var(--cinza-claro);
+}
+
+
 .menu {
     margin-top: 20px;
     margin-left: 10px;
     visibility: visible;
-    width: 100%;
+    width: 98%;
     display: flex;
     gap: 10px;
+    overflow: hidden;
 }
 
 .menu > a {
@@ -36,4 +42,14 @@
 
 .btn-expandir, .btn-retrair{
     visibility: hidden;
+}
+
+main {
+    margin-top: 10px;
+    margin-left: 6px;
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 2px 2px 10px rgba(15, 15, 15, 0.425);
+    margin-bottom: 10px;
+    padding: 10px;
 }
