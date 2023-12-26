@@ -22,9 +22,10 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: white;
 }
 
@@ -110,15 +111,15 @@ header {
 
 main {
     margin-top: 20px;
-    height: 80vh;
     max-width: 70vw;
     min-width: 300px;
     padding: 10px;
+    min-height: 80vh;
 }
 
 main > h2 {
-    margin-bottom: 10px;
     color: var(--laranja);
+    margin-bottom: 5px;
 }
 
 main > p {
@@ -133,15 +134,17 @@ main > ul {
 }
 
 li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 footer {
     background-color: var(--verde);
     width: 100vw;
-    text-align: center;
     color: white;
-    padding: 5px 0 5px 0;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 footer  a {
